@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOAQPiyZqTUOKTJQvp5BPqAAAAAACAAAAAAADZgAAwAAAABAAAAC4GqRUDwI63Ca81JSRDtnYAAAAAASAAACgAAAAEAAAACVS+FVH+v7KmrjumX4nntSAAAAAYU+xG6esNTAigAnmpqBlbUWVsPfhyMtUTQHrs03IJ7qB+u8PDwsFpjKHSo9ozsWm49loI1nvbccV6vu2v7Gk7ukTfxxxkbPwVIjCuNEkNvnu1kPtmWjjGEKffZ+3O1A+Nh9NdztRuJKHW/nIWIlmwgZKVh1jqc5o/6dS33KqD4wUAAAAHMS34TDCluiRVTlw8pYY63tkTus=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:darkheresy.database.windows.net,1433;Initial Catalog=darkHeresyDB;User ID=Floppy;Password=nachos123?" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:darkheresy.database.windows.net,1433;Initial Catalog=darkHeresyDB;User Id=Floppy@darkheresy.database.windows.net;Password=nachos123?" />
+  </ItemGroup>
+</Project>
